@@ -1,0 +1,107 @@
+/******************** EVENT SECTION ********************/
+
+.event_container {
+    position: relative;
+    width: 100%; /* S'adapte à la largeur du conteneur */
+    height: 100vh; /* S'adapte à la hauteur du conteneur */
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .event_background_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* S'adapte à la largeur du conteneur */
+    height: 100%; /* S'adapte à la hauteur du conteneur */
+    object-fit: contain; /* Assure que la vidéo est entièrement visible et centrée */
+    opacity : 0.5;
+  }
+  
+  #counter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FF9933; /* Couleur spécifiée pour le texte */
+    font-size: 6em;
+    font-weight: 700;
+    text-align: center;
+    z-index: 1; /* S'assure que le compte à rebours est visible par-dessus la vidéo */
+  }
+  
+  /* Media query for small screens (e.g., mobile devices) */
+@media screen and (max-width: 768px) {
+
+  
+.event_container {
+  position: relative;
+  width: 100%; /* S'adapte à la largeur du conteneur */
+  height: 50vh; /* S'adapte à la hauteur du conteneur */
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event_background_video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* S'adapte à la largeur du conteneur */
+  height: 100%; /* S'adapte à la hauteur du conteneur */
+  object-fit: contain; /* Assure que la vidéo est entièrement visible et centrée */
+  opacity : 0.5;
+}
+
+#counter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FF9933; /* Couleur spécifiée pour le texte */
+  font-size: 6em;
+  font-weight: 700;
+  text-align: center;
+  z-index: 1; /* S'assure que le compte à rebours est visible par-dessus la vidéo */
+}
+
+}
+
+ /* Media query for small screens (e.g., mobile devices) */
+ @media screen and (min-width: 500px) and (max-width: 768px) {
+  
+  .event_container {
+    position: relative;
+    width: 100%; /* S'adapte à la largeur du conteneur */
+    height: 50vh; /* S'adapte à la hauteur du conteneur */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .event_background_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* S'adapte à la largeur du conteneur */
+    height: 100%; /* S'adapte à la hauteur du conteneur */
+    object-fit: contain; /* Assure que la vidéo est entièrement visible et centrée */
+    opacity : 0.5;
+  }
+  
+  #counter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FF9933; /* Couleur spécifiée pour le texte */
+    font-size: 6em;
+    font-weight: 700;
+    text-align: center;
+    z-index: 1; /* S'assure que le compte à rebours est visible par-dessus la vidéo */
+  }
+}

@@ -1,0 +1,31 @@
+/*Import sections css*/
+@import url("sections/header.css");
+@import url("sections/hero.css");
+@import url("sections/about.css");
+@import url("sections/event.css");
+@import url("sections/history.css");
+@import url("sections/contact.css");
+@import url("sections/text-scroll.css");
+
+
+:root{
+    --primary-color: #000000;
+    --secondary-color: #FF9933;
+
+    --text-color: #ffffff;
+}
+
+/*Settings of the body*/
+body{
+    background-color: var(--primary-color);
+    padding: 0;
+    margin: 0;
+    font-family: 'Hind', sans-serif;
+    color:white;
+  }
+  
+/*For smooth scrolling*/
+html{
+    scroll-behavior: smooth;
+}
+
