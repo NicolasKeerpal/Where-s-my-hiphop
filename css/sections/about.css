@@ -1,8 +1,10 @@
 /******************** ABOUT US SECTION ********************/
+/******************* NORMAL SCREEN SIZE*********************/
+
 .about_title {
     display: flex;
     justify-content: right;
-    font-size: 80px;
+    font-size: 3rem;
     font-weight: 700;
     margin: 2rem 2rem 0 0;
   
@@ -16,18 +18,18 @@
     display: flex;
   }
   
-  .about_phrase_container{
+  .about_text_container{
     height: auto;
     padding-right: 2rem;
   }
   
-  .about_phrase {
+  .about_text {
     padding: 2rem 0 0 0;
     font-size: 25px;
     font-weight: 500;
   }
   
-  .about_phrase_1{
+  .about_text_1{
     padding: 1rem 0 0 0;
     font-size: 25px;
     font-weight: 500;
@@ -51,31 +53,19 @@
     display: none;
   }
   
-/* Media query for medium screens (e.g., tablets) */
+
+/* Media query for computer screens (e.g., tablets) */
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
-
+/*Nothing to change since nothing is breaking or look ok*/
 }
 
-
-/* Media query for medium screens (e.g., tablets) */
-@media screen and (min-width: 1100px) and (max-width: 1200px) {
-
+/* Media query for tablet screens (e.g., tablets) */
+@media screen and (min-width:1000px ) and (max-width: 1200px) {
+/*Nothing to change since nothing is breaking or look ok*/
 }
-
 
 /* Media query for small screens (e.g., mobile devices) */
-@media screen and (min-width: 800px) and (max-width: 900px) {
-
-  .image_about_us{
-    width:12vw;
-  }
-
-}
-
-
-/* Media query for small screens (e.g., mobile devices) */
-@media screen and (min-width: 300px) and (max-width: 768px) {
-
+@media screen and (min-width: 769px) and (max-width: 1000px) {
   .about_title {
     display: flex;
     justify-content: right;
@@ -94,19 +84,19 @@
     flex-direction: column;
   }
   
-  .about_phrase_container{
+  .about_text_container{
     height: auto;
     padding: 0 2rem 0 2rem;
   }
   
-  .about_phrase {
-    padding: 2rem 0 0 0;
+  .about_text {
+    padding: 2rem 2rem 0 2rem;
     font-size: 25px;
     font-weight: 500;
   }
   
-  .about_phrase_1{
-    padding: 1rem 0 0 0;
+  .about_text_1{
+    padding: 1rem 2rem 0 2rem;
     font-size: 25px;
     font-weight: 500;
   }
@@ -128,7 +118,127 @@
   
   .image_about_us_horizontal{
     display: block;
-    width: 40vw;
+    width: 30%;
+    padding: 1rem 2rem 0 0;
+  }
+}
+
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media screen and (min-width: 450px) and (max-width: 769px) {
+  .about_title {
+    display: flex;
+    justify-content: right;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 2rem 2rem 0 0;
+  
+  }
+  .about_title_container{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .about_container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about_text_container{
+    height: auto;
+    padding: 0 2rem 0 2rem;
+  }
+  
+  .about_text {
+    padding: 2rem 1rem 0 2rem;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  .about_text_1{
+    padding: 1rem 1rem 0 2rem;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  .about_image_container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100vw;
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .image_about_us{
+    display: none;
+  }
+
+  
+  .image_about_us_horizontal{
+    display: block;
+    width: 30%;
+    padding: 1rem 2rem 0 0;
+  }
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media screen and (min-width: 300px) and (max-width: 450px) {
+
+  .about_title {
+    display: flex;
+    justify-content: right;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 2rem 2rem 0 0;
+  
+  }
+  .about_title_container{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .about_container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about_text_container{
+    height: auto;
+    padding: 0 2rem 0 2rem;
+  }
+  
+  .about_text {
+    padding: 2rem 0.2rem 0 0.2rem;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  .about_text_1{
+    padding: 1rem 0.2rem 0 0.2rem;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  .about_image_container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100vw;
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .image_about_us{
+    display: none;
+  }
+
+  
+  .image_about_us_horizontal{
+    display: block;
+    width: 30%;
     padding: 1rem 2rem 0 0;
   }
 }

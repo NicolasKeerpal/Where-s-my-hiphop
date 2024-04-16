@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="/icon.png"/>
+  <link rel="icon" type="image/png" href="/assets/icon.png"/>
   <link rel="stylesheet" href="css/style.css"/>
   <title>Where's My HipHop</title>
   <!--Import GSAP Librairy-->
@@ -62,18 +62,18 @@
   <section id="hero_section">
     <div class="hero_container">
       <!--Hero left side-->
-      <div class="hero_text_container">
+      <div class="hero_right_container">
         <!--Video background of the mobile version-->
-        <video muted autoplay loop alt="video of the page" class="hero_bk_video">
+        <video muted autoplay loop alt="video of the page" class="hero_bk_video_mobile">
           <source src="/assets/main.mp4" type="video/mp4">
           Votre navigateur ne supporte pas la balise vidéo.
         </video>
         <!-- Slogan of the website-->
-        <img class="hero_image" src="/assets/slogan.png" >
-        <p class="hero_phrase">Le rendez-vous culture HipHop</p>
+        <img class="hero_slogan_image" src="/assets/slogan.png" >
+        <p class="hero_text">Le rendez-vous culture HipHop</p>
       </div>
       <!--Hero right side-->
-      <div class="hero_video_container">
+      <div class="hero_left_container">
         <!-- Video of the lagger screen version-->
         <video muted autoplay loop alt="video of the page" class="hero_video">
           <source src="/assets/main.mp4" type="video/mp4">
@@ -100,11 +100,12 @@
   <section id="event_section">
     <!--The countdown-->
     <div class="event_container">
-    <!--The video background-->
-      <video class="event_background_video" autoplay loop muted>
+    <!--The loading screen video-->
+      <video class="event_loading_video" autoplay loop muted>
         <source src="/assets/Loading.mp4" type="video/mp4">
         Votre navigateur ne supporte pas la balise vidéo.
       </video>
+    <!-- Counter of the video coming up -->
       <div id="counter"></div>
     </div>
   </section>
@@ -123,21 +124,25 @@
 
     <!-- History Section-->
     <section id="history_section">
+      <!--Container for the title-->
       <div class="history_title_container">
-        <p class="history_title"> Histoire</p>
+        <p class="history_title">Histoire</p>
       </div>
+      <!-- History Container-->
       <div class="history_container">
-        <div class=" history_phrase_container">
-          <p class="history_phrase"> 
+        <!-- History text container-->
+        <div class=" history_text_container">
+          <p class="history_text"> 
             Depuis sa création, cette culture unificatrice et sans barrières a influencé le monde dans son entièreté.
             De ce fait, nous avons tous une sensibilité HipHop, quelque soit la manière dont elle s'exprime.
             De plus en plus, le HipHop s’ouvre, s’étend et se diversifie vers de nouveaux styles et pratiques.
           </p>
-          <p class="history_phrase_1">L'événement "Where's My HipHop" permettra de découvrir les multiples facettes de cette culture et de diffuser ses valeurs.
+          <p class="history_text_1">L'événement "Where's My HipHop" permettra de découvrir les multiples facettes de cette culture et de diffuser ses valeurs.
             Un point d’honneur sera accordé à l’inclusivité, ainsi qu’à la mixité, dans le sens où les intervenants représenteront l’ouverture fondamentale du HipHop sur la féminité, le handicap, l’âge ou la couleur de peau.
             Dispose d’un menu contextuel
           </p>
         </div>
+        <!-- History image container-->
         <div class="history_poster_container" >
           <img src="/assets/wallpaper.png" class="poster">
         </div>
@@ -166,23 +171,23 @@
           <img class="image_about_us" src="/assets/WIM2H.png" >
           <img class="image_about_us_horizontal" src="/assets/WIM2H_horizontal.png" >
         </div>
-        <div class=" about_phrase_container">
-          <p class="about_phrase"> 
+        <div class=" about_text_container">
+          <p class="about_text"> 
             L’événment “Where’s My HipHop” est porté par l’association loi 1901 nommée Sound Workerz. 
             Déclarée officiellement en janvier 2024, cette entité a pour objectif de promouvoir la 
             culture urbaine et plus précisément, la culture HipHop.
           </p>
-          <p class="about_phrase_1">
+          <p class="about_text_1">
             Par ailleurs, l’une de ses principales priorités est l’inclusivité. 
             L’association propose des animations ouvertes à tous, jusqu’à l’invitation des populations issues de QPV. 
             La raison étant de donner accès à tout un chacun, aux différentes ressources mises en place.
           </p>
-          <p class="about_phrase_1">
+          <p class="about_text_1">
             Sound Workerz souhaite unifier et offrir un tremplin à chaque acteur HipHop local. 
             Le travail avec des partenaires lui est familier, principalement pour l’organisation de stage, 
             battle, conférence, exposition, et bien encore.
           </p>
-          <p class="about_phrase_1">
+          <p class="about_text_1">
             Les valeurs qui pousse l’association à son accomplissement sont le respect, la mixité et la bienveillance.
           </p>
         </div>
@@ -208,26 +213,26 @@
         <p class="contact_title">CONTACTER NOUS</p>
       </div>
       <div class="contact_container">
-        <div class="contact_image_container" >
-          <p class="contact_us">Venez nous rendre visite sur</p>
-          <a href="https://www.instagram.com/whereismyhiphop?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="https://www.instagram.com/whereismyhiphop?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" >
-            <img class="image_instagram" 
-                src="/assets/logo-instagram.png" 
-            >
+        <div class="contact_us_container" >
+          <p class="contact_text">Venez nous rendre visite sur</p>
+          <a href="https://www.instagram.com/whereismyhiphop?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
+            target="https://www.instagram.com/whereismyhiphop?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
+          >
+            <img class="contact_logo_instagram" src="/assets/logo-instagram.png" alt="logo de instagram">
           </a>
         </div>
-        <div class="test_container">
-          <p class="contact_us"> Nos Partenariats</p>
-          <div class=" contact_partnership_container">
-            <img class="image_contact" src="/assets/logo_ynov_campus_toulouse.png">
-            <img class="image_contact" src="/assets/logo-ambitionjeunesses.png">
-            <img class="image_contact" src="/assets/logo_alphab.png">
-            <img class="image_contact" src="/assets/logo_eight_ball.jpg">
-            <img class="image_contact" src="/assets/logo_parenthese.png">
-            <img class="image_contact" src="/assets/logo_edls.jpg">
-            <img class="image_contact" src="/assets/logo_cd-cartouche-agir-avec-vous.png">
-            <img class="image_contact" src="/assets/logo_hopus.png">
-            <img class="image_contact" src="/assets/logo_SoundWorkerz.png">
+        <div class="contact_partnership_container">
+          <p class="contact_text"> Nos Partenariats</p>
+          <div class=" contact_partnership_logo_container">
+            <img class="contact_logo_partnership" src="/assets/logo_ynov_campus_toulouse.png" alt=" Logo Ynov Campus">
+            <img class="contact_logo_partnership" src="/assets/logo-ambitionjeunesses.png" alt=" Logo Ambition Jeunesses">
+            <img class="contact_logo_partnership" src="/assets/logo_alphab.png" alt=" Logo Alphab">
+            <img class="contact_logo_partnership" src="/assets/logo_eight_ball.jpg" alt=" Logo Eight Ball">
+            <img class="contact_logo_partnership" src="/assets/logo_parenthese.png" alt=" Logo Parenthese">
+            <img class="contact_logo_partnership" src="/assets/logo_edls.jpg" alt=" Logo EDLS">
+            <img class="contact_logo_partnership" src="/assets/logo_cd-cartouche-agir-avec-vous.png" alt=" Logo CD Cartouche agir avec vous">
+            <img class="contact_logo_partnership" src="/assets/logo_hopus.png" alt=" Logo Hopus">
+            <img class="contact_logo_partnership" src="/assets/logo_SoundWorkerz.png" alt=" Logo SoundWorkerz">
           </div>
         </div>
       </div>
