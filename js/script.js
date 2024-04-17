@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
       for (let i = 0; i < numParts; i++) {
         const part = document.createElement('div');
         part.classList.add('text_scrolling_part');
-        part.textContent = 'WIM2H'; // Or any text you want
+        part.textContent = 'WIMHH'; // Or any text you want
   
         const imageContainer = document.createElement('div');
         imageContainer.classList.add('text_scrolling_image');

@@ -54,7 +54,7 @@
     background-color: var(--secondary-color);
     height: 80vh;
     width: 100%;
-    padding-left: 5rem;
+    padding:0 0 2rem 5rem;
   }
 
   .contact_partnership_logo_container{
@@ -70,6 +70,18 @@
     width: 80%; /* Ensure images don't exceed their container width */
   }
 
+  .link_legal_notice {
+    text-decoration: none;
+    color: white;
+    float: right; /* Move the link to the right side */
+    margin: 2rem 2rem 0 0; /* Add some space between the link and other content */
+    font-weight: 600;
+    font-size: 1..2rem;
+  }
+  
+  .link_legal_notice:hover {
+    color: var(--secondary-color); /* Change color on hover */
+  }
 
 /* Media query for computer screens (e.g., tablets) */
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
@@ -263,8 +275,8 @@
   }
   
     .contact_partnership_container {
-      margin: 2rem 0 0 0 ;
-      padding: 0 2rem 0 2rem;
+      margin: 3rem 0 0 0 ;
+      padding: 0 2rem 2rem 2rem;
         mask-image: none;
         mask-size: auto;
         mask-repeat: no-repeat;
@@ -337,8 +349,8 @@
   }
   
     .contact_partnership_container {
-      margin: 2rem 0 0 0 ;
-      padding: 0 2rem 0 2rem;
+      margin: 3rem 0 0 0 ;
+      padding: 0 2rem 2rem 2rem;
         mask-image: none;
         mask-size: auto;
         mask-repeat: no-repeat;
@@ -408,8 +420,8 @@
   }
   
     .contact_partnership_container {
-      margin: 2rem 0 0 0 ;
-      padding: 0 2rem 0 2rem;
+      margin: 3rem 0 0 0 ;
+      padding: 0 2rem 2rem 2rem;
         mask-image: none;
         mask-size: auto;
         mask-repeat: no-repeat;
