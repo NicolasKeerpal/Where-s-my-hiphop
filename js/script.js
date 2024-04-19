@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const imageContainer = document.createElement('div');
         imageContainer.classList.add('text_scrolling_image');
         const image = document.createElement('img');
-        image.src = '/assets/globe.png'; // Or any image you want
+        image.src = '../assets/globe.png';
         imageContainer.appendChild(image);
   
         part.appendChild(imageContainer);
