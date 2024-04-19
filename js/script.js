@@ -1,3 +1,5 @@
+import "./assets/globe.png";
+
 document.addEventListener("DOMContentLoaded", function() {
     const textScrollingContainers = document.querySelectorAll('.text_scrolling_container');
   
