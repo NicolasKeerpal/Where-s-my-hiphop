@@ -30,6 +30,8 @@ header{
     font-weight: 700;
     font-size: 25px;
     padding: 0 50px;
+    text-transform: uppercase;
+
 }
 
 /*Hover effect*/
