@@ -20,6 +20,11 @@
     object-fit: contain; /* Assure que la vidéo est entièrement visible et centrée */
     opacity : 0.5;
   }
+
+  .event_video{
+    width: 100%;
+    height: 100%;
+  }
   
   #counter {
     position: absolute;
