@@ -101,12 +101,12 @@
     <!--The countdown-->
     <div class="event_container">
     <!--The loading screen video-->
-      <video class="event_loading_video" autoplay loop muted>
-        <source src="/assets/Loading.mp4" type="video/mp4">
+    <video class="event_loading_video" autoplay loop muted>
+      <source src="/assets/Loading.mp4" type="video/mp4">
         Votre navigateur ne supporte pas la balise vidéo.
-      </video>
-    <!-- Counter of the video coming up -->
-      <div id="counter"></div>
+    </video>
+    <!--<iframe class="event_iframe" width="1920" height="700" allow="autoplay; encrypted-media" allowfullscreen src="https://www.youtube.com/embed/P3MTVAvQlNg"></iframe>-->
+    <div id="counter"></div>
     </div>
   </section>
 
@@ -116,7 +116,7 @@
         <div class="text_scrolling_part">
           WIM2H
           <div class="text_scrolling_image">
-            <img src="globe.png">
+            <img src="/assets/globe.png">
           </div>
         </div>
       </div>
@@ -157,7 +157,7 @@
         <div class="text_scrolling_part">
           WIM2H
           <div class="text_scrolling_image">
-            <img src="globe.png">
+            <img src="/assets/globe.png">
           </div>
         </div>
       </div>
@@ -202,7 +202,7 @@
         <div class="text_scrolling_part">
           WIM2H
           <div class="text_scrolling_image">
-            <img src="globe.png">
+            <img src="/assets/globe.png">
           </div>
         </div>
       </div>
@@ -239,7 +239,7 @@
         </div>
       </div>
       <div>
-        <a class="link_legal_notice" href="/html/sections/legal_notice.html"> Mentions Légales</a>
+        <a class="link_legal_notice" href="html/sections/legal_notice.html"> Mentions Légales</a>
       </div>
     </section>
 
@@ -249,10 +249,16 @@
         <div class="text_scrolling_part">
           WIM2H
           <div class="text_scrolling_image">
-            <img src="globe.png">
+            <img src="/assets/globe.png">
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Cookie consent banner -->
+    <div id="cookieConsent">
+      This website uses cookies to ensure you get the best experience on our website.
+      <button onclick="hideCookieConsent()">Got it!</button>
+    </div>
 </body>
 </html>

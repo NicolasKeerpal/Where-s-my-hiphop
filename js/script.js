@@ -1,7 +1,9 @@
-import "./assets/globe.png";
+import globeImage from '@assets/globe.png';
+
 
 document.addEventListener("DOMContentLoaded", function() {
-    const textScrollingContainers = document.querySelectorAll('.text_scrolling_container');
+    
+  const textScrollingContainers = document.querySelectorAll('.text_scrolling_container');
   
     // Loop through each text scrolling container
     textScrollingContainers.forEach(container => {
@@ -16,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const imageContainer = document.createElement('div');
         imageContainer.classList.add('text_scrolling_image');
         const image = document.createElement('img');
-        image.src = '../globe.png';
+        image.src = globeImage;
         imageContainer.appendChild(image);
   
         part.appendChild(imageContainer);
@@ -87,3 +89,12 @@ document.addEventListener("DOMContentLoaded", function() {
 }
   
 toggleMobileMenu();
+
+
+function hideCookieConsent() {
+  var consentElement = document.getElementById('cookieConsent');
+  consentElement.style.display = 'none';
+}
+
+hideCookieConsent();
+

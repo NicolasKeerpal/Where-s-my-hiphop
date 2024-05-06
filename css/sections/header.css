@@ -26,19 +26,18 @@ header{
 /*Settings of the navigation items*/
 .nav_item{
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
     font-weight: 700;
     font-size: 25px;
     padding: 0 50px;
     text-transform: uppercase;
-
 }
 
 /*Hover effect*/
 .nav_item:hover{
-    color: #FF9933; /*Change the text color*/
+    color: var(--secondary-color); /*Change the text color*/
     text-decoration: underline;
-    text-decoration-color: #FF9933; /*Change the underline color*/
+    text-decoration-color: var(--secondary-color); /*Change the underline color*/
     text-decoration-thickness: 0.5svh;
 }
   
@@ -115,7 +114,7 @@ button:focus {
 
   .nav_item{
   text-decoration: none;
-  color: white;
+  color: var(--text-color) ;
   font-weight: 700;
   font-size: 2rem;
   padding: 0 0 0 0;
@@ -190,7 +189,7 @@ button:focus {
 
   .nav_item{
   text-decoration: none;
-  color: white;
+  color: var(--text-color);
   font-weight: 700;
   font-size: 2rem;
   padding: 0 0 0 0;
@@ -264,7 +263,7 @@ button:focus {
 
   .nav_item{
   text-decoration: none;
-  color: white;
+  color: var(--text-color);
   font-weight: 700;
   font-size: 2rem;
   padding: 0 0 0 0;
@@ -337,7 +336,7 @@ button:focus {
 
   .nav_item{
   text-decoration: none;
-  color: white;
+  color: var(--text-color);
   font-weight: 700;
   font-size: 2rem;
   padding: 0 0 0 0;

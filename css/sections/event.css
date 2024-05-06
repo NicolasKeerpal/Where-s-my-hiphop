@@ -26,7 +26,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #FF9933; /* Couleur spécifiée pour le texte */
+    color: var(--secondary-color); /* Couleur spécifiée pour le texte */
     font-size: 6em;
     font-weight: 700;
     text-align: center;
@@ -62,7 +62,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #FF9933; /* Couleur spécifiée pour le texte */
+  color: var(--secondary-color); /* Couleur spécifiée pour le texte */
   font-size: 6em;
   font-weight: 700;
   text-align: center;
@@ -99,7 +99,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #FF9933; /* Couleur spécifiée pour le texte */
+    color: var(--secondary-color); /* Couleur spécifiée pour le texte */
     font-size: 6em;
     font-weight: 700;
     text-align: center;
@@ -136,7 +136,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #FF9933; /* Couleur spécifiée pour le texte */
+    color: var(--secondary-color); /* Couleur spécifiée pour le texte */
     font-size: 6em;
     font-weight: 700;
     text-align: center;
@@ -171,7 +171,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #FF9933; /* Couleur spécifiée pour le texte */
+    color: var(--secondary-color); /* Couleur spécifiée pour le texte */
     font-size: 6em;
     font-weight: 700;
     text-align: center;
@@ -206,7 +206,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #FF9933; /* Couleur spécifiée pour le texte */
+    color: var(--secondary-color); /* Couleur spécifiée pour le texte */
     font-size: 6em;
     font-weight: 700;
     text-align: center;
@@ -242,7 +242,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #FF9933; /* Couleur spécifiée pour le texte */
+    color: var(--secondary-color); /* Couleur spécifiée pour le texte */
     font-size: 6em;
     font-weight: 700;
     text-align: center;
@@ -277,7 +277,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #FF9933; /* Couleur spécifiée pour le texte */
+    color: var(--secondary-color); /* Couleur spécifiée pour le texte */
     font-size: 6em;
     font-weight: 700;
     text-align: center;

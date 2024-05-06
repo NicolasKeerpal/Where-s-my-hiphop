@@ -14,7 +14,7 @@
     margin: 2rem 0 2rem 2rem;
     font-size: 3rem;
     font-weight: 700;
-    color: white;
+    color: var(--text-color);
   }
 
   .contact_text{
@@ -72,7 +72,7 @@
 
   .link_legal_notice {
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
     float: right; /* Move the link to the right side */
     margin: 2rem 2rem 1rem 0; /* Add some space between the link and other content */
     font-weight: 600;
@@ -98,7 +98,7 @@
       margin: 2rem 0 2rem 2rem;
       font-size: 3rem;
       font-weight: 700;
-      color: white;
+      color: var(--text-color);
     }
   
     .contact_text{
@@ -171,7 +171,7 @@
       margin: 2rem 0 2rem 2rem;
       font-size: 3rem;
       font-weight: 700;
-      color: white;
+      color: var(--text-color);
     }
   
     .contact_text{
@@ -245,7 +245,7 @@
       padding: 2rem 0 0 0;
       font-size: 3rem;
       font-weight: 700;
-      color: white;
+      color: var(--text-color);
     }
   
     .contact_text{
@@ -319,7 +319,7 @@
       padding: 2rem 0 0 0;
       font-size: 2rem;
       font-weight: 700;
-      color: white;
+      color: var(--text-color);
     }
   
     .contact_text{
@@ -375,7 +375,7 @@
 
     .link_legal_notice {
       text-decoration: none;
-      color: white;
+      color: var(--text-color);
       float: right; /* Move the link to the right side */
       margin: 2rem 1rem 1rem 0; /* Add some space between the link and other content */
       font-weight: 600;
@@ -403,7 +403,7 @@
       padding: 2rem 0 0 0;
       font-size: 2rem;
       font-weight: 700;
-      color: white;
+      color: var(--text-color);
     }
   
     .contact_text{
@@ -459,7 +459,7 @@
 
     .link_legal_notice {
       text-decoration: none;
-      color: white;
+      color: var(--text-color);
       float: right; /* Move the link to the right side */
       margin: 2rem 1rem 1rem 0; /* Add some space between the link and other content */
       font-weight: 600;
